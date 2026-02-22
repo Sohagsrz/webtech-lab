@@ -1,0 +1,48 @@
+.header {
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.headertxt {
+    text-align: center;
+}
+
+.footer {}
+
+.profilebox {
+    padding: 20px;
+    margin: auto;
+    width: 550px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: azure;
+    margin-bottom: 10px;
+}
+
+.imgwarpper {
+    float: left;
+}
+
+.infowrapper {
+    padding: 10px;
+    ;
+    float: right;
+}
+
+.profileimg {
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.profilebox * {
+    margin: 5px;
+}
+
+.footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
