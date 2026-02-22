@@ -27,22 +27,27 @@
 
 .infowrapper {
     padding: 10px;
-    ;
+    font-size: 17px;
     float: right;
 }
 
 .profileimg {
     height: 150px;
     width: auto;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .profilebox * {
     margin: 5px;
 }
 
+.bio {
+    font-family: italic;
+}
+
 .footer {
     padding: 10px;
     background-color: black;
     color: white;
+    text-align: center;
 }
