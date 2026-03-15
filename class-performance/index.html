@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Product Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="headertxt">Product Management Page</div>
+    </div>
+
+    <div class="mainbox">
+
+        <div class="producttitle">Product: Notebook</div>
+
+        <div class="row">
+            <label class="lbl">Unit Price (BDT):</label>
+            <input class="inputbox" type="number" id="unitPrice" value="100" readonly>
+        </div>
+
+        <div class="row">
+            <label class="lbl">Quantity:</label>
+            <input class="inputbox" type="number" id="quantity" value="0" min="0" onchange="calculate()">
+        </div>
+
+        <div class="row">
+            <label class="lbl">Total Price (BDT):</label>
+            <input class="inputbox" type="number" id="totalPrice" value="0" readonly>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <div class="footertxt">Designed By Sohag Islam</div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
